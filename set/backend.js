@@ -34,6 +34,10 @@ fs.copySync(base + '/.gitignore', dmodule + '/.gitignore');
 fs.copySync(base + './dist/', dmodule + '/dist');
 // copy env file
 fs.copySync(base + './env', dmodule + '/env');
+// copy pm2 config file
+fs.copySync(base + '/ecosystem.config.js', dmodule + '/ecosystem.config.js');
+// copy knex thing
+fs.copySync(base + '/knexfile.js', dmodule + '/knexfile.js');
 // Obfuscate Dist
 const JavaScriptObfuscator = require('javascript-obfuscator');
 const walk = function (dir) {

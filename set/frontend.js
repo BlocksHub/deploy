@@ -28,7 +28,7 @@ try {
 // copy over config files
 fs.copySync(base + '/package.json', dmodule + '/package.json');
 fs.copySync(base + '/package-lock.json', dmodule + '/package-lock.json');
-fs.copySync(base + '/.gitignore', dmodule + '/.gitignore');
+fs.copySync(base + '/ecosystem.config.js', dmodule + '/ecosystem.config.js');
 
 // copy over dist dir
 fs.copySync(base + './dist/', dmodule + '/dist');
