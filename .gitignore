@@ -3,3 +3,4 @@
 /web-backend-dist/*
 /web-frontend-dist/*
 /tmp/*
+/config/*

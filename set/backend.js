@@ -32,6 +32,8 @@ fs.copySync(base + '/.gitignore', dmodule + '/.gitignore');
 
 // copy over dist dir
 fs.copySync(base + './dist/', dmodule + '/dist');
+// copy env file
+fs.copySync(base + './env', dmodule + '/env');
 // Obfuscate Dist
 const JavaScriptObfuscator = require('javascript-obfuscator');
 const walk = function (dir) {
