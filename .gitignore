@@ -2,5 +2,6 @@
 /config.json
 /web-backend-dist/*
 /web-frontend-dist/*
+/game-client-dist/*
 /tmp/*
 /config/*
